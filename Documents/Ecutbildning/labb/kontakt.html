@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+ <meta charset="utf-8">
+ <title>Kontakt</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+
+<div id="header"><h1>Kontakt </h1></div>
+
+
+<div id="nav">
+
+  <ul>
+    <li><a href=index.html>Hem</a></li>
+    <li><a href=om.html>Om mig</a></li>
+    <li><a href=movies.html>Favorit filmer</a></li>
+    <li><a href=links.html>Länkar</a></li>
+    <li><a class="active" href=kontakt.html>Kontakt</a></li>
+  </ul>
+</div>
+
+<div id="content"><h1> Vill du kontakta mig? </h1>
+  <form>
+    <label for="namnet">Namn</label>
+    <input type="text" id="namnet" name="name" placeholder="Ditt namn..." required>
+    <br>
+    <label for="email">Email</label>
+    <input type="email" name="Email" placeholder="Din Email..." required>
+    <br>
+    <label for="anledning">Varför vill du komma i kontakt med mig?</label>
+    <select name="anledning">
+      <option value="select">Välj ett alternativ</option>
+      <option value="fråga">Frågor</option>
+      <option value="Sammarbete">Sammarbete</option>
+      <option value="Annat">Annat</option>
+    </select>
+    <br>
+    <textarea name="message" style="height:150px">
+
+    </textarea>
+    <br>
+    <input type="submit" value="Skicka">
+  </form>
+
+
+
+</div>
+<div id="footer"> <p> kontakt:
+Josefine.nystedt@live.se 0705255209 </p> </div>
+
+ </body>
+</html>
